@@ -71,3 +71,9 @@
     border-radius: 3px;
     transition: width 500ms ease-in-out;
   }
+  @media (max-width:768px) {
+    .profile-pic{
+        display: none;
+    }
+  
+  }
