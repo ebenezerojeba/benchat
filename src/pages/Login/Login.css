@@ -1,6 +1,6 @@
 .login{
     min-height: 100vh;
-    background: url(/background3.png) no-repeat ;
+    background: url(/background4.png) no-repeat ;
     background-size: cover;
     display: flex;
     opacity: .85;
@@ -25,7 +25,7 @@
     padding: 8px 10px;
     border: 1px solid #c9c9c9;
     border-radius: 4px;
-    outline-color: #077EFF;
+    outline-color: black;
 }
 .login-form button{
     padding: 10px;
