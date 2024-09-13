@@ -89,12 +89,13 @@ const ProfileUpdate = () => {
               onChange={(e) => setImage(e.target.files[0])}
               type="file"
               id="avatar"
-              accept="images/*"
+              accept="image/*"
               hidden
             />
             <img
               src={image ? URL.createObjectURL(image) : assets.avatar_icon}
-              alt="upload"
+              alt="Profile"
+              style={{ width: '80px', height: '80px', objectFit: 'cover' }}
             />
             Upload profile image
           </label>

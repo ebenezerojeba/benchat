@@ -1,7 +1,8 @@
 .profile{
     min-height: 100vh;
-    background: url(/public/background2.png) no-repeat;
+    /* background: url(/public/background4.png) no-repeat; */
     background-size: cover;
+    background: #163351;
     display: flex;
     align-items: center;
     justify-content: center;
