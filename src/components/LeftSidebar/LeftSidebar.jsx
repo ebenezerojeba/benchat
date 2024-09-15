@@ -128,6 +128,7 @@ const LeftSidebar = () => {
     }
   };
 
+
   return (
     <section className={`ls ${chatVisible ? "hidden" : ""}`}>
       <div className="ls-top">
